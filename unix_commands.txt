@@ -1,41 +1,41 @@
-UNX commands
+#UNIX commands
 
-Print stuff
+#Print stuff
 echo “print_these_strings”
 echo "print_these_strings” >> into_this_file.md
 
-get info on a command
+#get info on a command
 info command
 
-Copy file 
+#Copy file 
 scp ~/Downloads/file.csv destination
-or
+#or
 cp ~/Downloads/file.csv destination
 
-Secure connection to server
+#Secure connection to server
 ssh server_name
 
-Convert two images into one pdf file
+#Convert two images into one pdf file
 convert a.png b.png myfile.pdf
 or
 convert $(ls *these_files) myfile.pdf
 
-View version of python running
+#View version of python running
 python —version
 
-View source of python
+#View source of python
 which python
 
-View packages installed by pip
+#View packages installed by pip
 pip freeze
 
-change bash shell
+#change bash shell
 chsh -s /bin/bash
 
-find a file
+#find a file
 find in_directory -name file_name 
 
-find a file and do not print results that have this string
+#find a file and do not print results that have this string
 find in_directory -name “search_string” 2>&1 |  grep -v “dont_include_this_string“
 
 
