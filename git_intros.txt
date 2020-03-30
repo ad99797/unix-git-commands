@@ -1,0 +1,47 @@
+GIT intros
+
+Version control software to be used with any files, not normally good with binary as these are compilable files, these types of files can change easily. On the other hand text based editors work better. CVS, Perforce, RCS, subversion are other version control softwares but these typically have a central machine that we all communicate with. Code is locked onto a server and no-one else can get it. GIT differs and has distributed development in mind.
+
+Encourage regular branches, push changes often, …
+
+Largest web base repositories are gitHub and gitlab. No real difference but we are using gitlab
+
+Copy the repository link and put it directory using ‘git clone’
+
+This is empty repository so we need to add files
+
+In the directory we created in terminal, add a file called read me with vim README.md
+
+Git status asks whats going on in the directory that git is managing
+
+Add files with git add * To add all files in the tracked directory
+
+Git commit -m ‘what am I doing in the present’ README.md (so note we commit changes for a files one at a time) this prepares code on the branch?
+
+Git push to push code to the server. Now the web page looks different
+
+Git diff readmd.md to see the differences in the files 
+
+Remeber git likes to branch, branching is a way of separating out groups of changes
+
+Git branch add_extra_files to create a new branch
+
+Git branch to view branches
+
+Git checkout add_extra_files to make switch master branch
+
+A merge request is when you have a branch and you want to merge it to any branch or master, and you could use the link provided
+
+Either do merge locally or through merge request, Generally tend to run fetch and then the merge command 
+
+I create the request, I assign it to myself as I am working on my own project
+
+Complete the merge request on the webpage repository
+
+Git pull works on current branch, git fetch gets all files
+
+Git log gives the summary for the whole project
+
+You can do git diff between the hash keys which gives you the difference
+
+You can merge branches using git merge add_extra_files
